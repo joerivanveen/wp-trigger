@@ -1,15 +1,12 @@
 <?php
-/**
- * @package Joeri
- * @version 0.0.2
- */
 /*
 Plugin Name: Trigger
-Plugin URI: https://ruigehond.nl
+Plugin URI: https://github.com/joerivanveen/wp-trigger
 Description: Triggers the hook supplied in querystring, e.g. ?hook=woocommerce_payment_complete&order_id=300 hook MUST be the first query var, other vars are also in the order received by the hook.
+Version: 1.0.0
 Author: Joeri van Veen
-Version: 0.0.2
-Author URI: https://joerivanveen.com
+Author URI: https://customwordpressplugin.com/
+License: GPL3
 */
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
