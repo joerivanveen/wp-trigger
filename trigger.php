@@ -5,7 +5,7 @@ Plugin URI: https://github.com/joerivanveen/wp-trigger
 Description: Triggers the hook supplied in querystring, e.g. ?hook=woocommerce_payment_complete&order_id=300 hook MUST be the first query var, other vars are also in the order received by the hook.
 Version: 1.0.0
 Author: Joeri van Veen
-Author URI: https://customwordpressplugin.com/
+Author URI: https://wp-developer.eu/
 License: GPL3
 */
 ini_set('display_errors', 1);
